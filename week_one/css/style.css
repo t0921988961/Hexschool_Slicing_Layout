@@ -57,6 +57,7 @@
 
 .person_profile .person_name {
   font-size: 80px;
+  font: normal normal normal 80px/94px Roboto;
   padding-bottom: 17px;
 }
 
@@ -66,7 +67,7 @@
 }
 
 .person_profile .profile_title {
-  font-size: 32px;
+  font: normal normal normal 32px/43px Noto Sans;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,15 +78,13 @@
 }
 
 .person_profile .profile_title > span {
-  font-size: 24px;
-  font: normal normal medium 24px/28px Roboto;
+  font: normal normal 24px/28px Roboto;
   letter-spacing: 0px;
   padding-left: 16px;
 }
 
 .person_profile .profile_text_style {
   margin-bottom: 72px;
-  font-size: 24px;
   font: normal normal normal 24px/36px Noto Sans;
   letter-spacing: 0px;
 }
@@ -109,7 +108,6 @@
 }
 
 .skill_block .skill_title {
-  font-size: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,13 +117,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font: normal normal medium 32px/45px PingFang TC;
+  font: normal normal 32px/45px PingFang TC;
   padding-bottom: 15px;
 }
 
 .skill_block .skill_title > span {
-  font-size: 24px;
-  font: normal normal medium 24px/28px Roboto;
+  font: normal normal 24px/28px Roboto;
   padding-left: 16px;
 }
 
@@ -135,7 +132,6 @@
   margin-top: 40px;
   border-left: 1px solid #fff;
   padding-left: 24px;
-  font-size: 24px;
   font: normal normal 300 24px/36px Roboto;
   text-align: left;
 }
@@ -146,6 +142,7 @@
 
 .skill_block .skill_group > p:last-child {
   margin-bottom: 0;
+  font: normal normal 300 24px/36px PingFang TC;
 }
 
 .work {
@@ -153,7 +150,7 @@
 }
 
 .work .work_title {
-  font-size: 32px;
+  font: normal normal normal 32px/43px Noto Sans;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,15 +161,42 @@
 }
 
 .work .work_title > span {
-  font-size: 24px;
-  font: normal normal medium 24px/28px Roboto;
+  font: normal normal 24px/28px Roboto;
   letter-spacing: 0px;
   padding-left: 16px;
 }
 
 .work .work_des {
-  padding-top: 16px;
+  margin-top: 16px;
+  padding-left: 24px;
+  margin-left: 24px;
   border-left: 1px solid #96a9c4;
+}
+
+.work .work_des > img {
+  padding: 8px 0;
+}
+
+.work .work_des .text_24px {
+  font: normal normal normal 24px/36px Noto Sans;
+  margin-bottom: 24px;
+}
+
+.work .work_des .text_24px:first-child, .work .work_des .text_24px:nth-child(7) {
+  margin-bottom: 0;
+}
+
+.work .work_des .text_20px {
+  font: normal normal normal 20px/30px Noto Sans;
+  margin-bottom: 24px;
+}
+
+.work .work_des .text_20px:last-child {
+  margin-bottom: 0;
+}
+
+.work .work_des .text_20px:nth-child(3) {
+  width: 640px;
 }
 
 .contact {
@@ -187,13 +211,11 @@
 }
 
 .contact .container > p {
-  font-size: 24px;
   font: normal normal 300 24px/36px Roboto;
   margin-bottom: 16px;
 }
 
 .contact .contact_title {
-  font-size: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,13 +225,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font: normal normal medium 32px/45px PingFang TC;
+  font: normal normal 32px/45px PingFang TC;
   padding-bottom: 15px;
 }
 
 .contact .contact_title > span {
-  font-size: 24px;
-  font: normal normal medium 24px/28px Roboto;
+  font: normal normal 24px/28px Roboto;
   padding-left: 16px;
 }
 
