@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.c_whtie {
+  color: #ffffff;
+}
+
+.c_black {
+  color: #000000;
+}
+
+.c_red {
+  color: #a00404;
+}
+
+.c_blue_9c4 {
+  color: #96a9c4;
+}
+
+.c_red_165 {
+  color: #415165;
+}
+
+.width_100persent {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.border_2px {
+  border-bottom: 2px solid #000000;
+}
+
+.border_1px {
+  border-bottom: 1px solid #000000;
+}
+
+.mt_16 {
+  margin-top: 16px;
+}
+
+.mt_24 {
+  margin-top: 24px;
+}
+
+.person_profile {
+  text-align: left;
+  padding-top: 47px;
+  padding-bottom: 72px;
+}
+
+.person_profile .person_name {
+  font-size: 80px;
+  padding-bottom: 17px;
+}
+
+.person_profile .perser_img {
+  display: block;
+  padding: 48px 0;
+}
+
+.person_profile .profile_title {
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.person_profile .profile_title > span {
+  font-size: 24px;
+  font: normal normal medium 24px/28px Roboto;
+  letter-spacing: 0px;
+  padding-left: 16px;
+}
+
+.person_profile .profile_text_style {
+  margin-bottom: 72px;
+  font-size: 24px;
+  font: normal normal normal 24px/36px Noto Sans;
+  letter-spacing: 0px;
+}
+
+.person_profile .profile_text_style .profile_des {
+  padding: 16px 0 0 0;
+}
+
+.person_profile .education {
+  margin-bottom: 0;
+}
+
+.skill_block {
+  background-color: #415165;
+  padding: 24px 0 36px 0;
+  text-align: center;
+}
+
+.skill_block .border_1px {
+  border-color: #ffffff;
+}
+
+.skill_block .skill_title {
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: normal normal medium 32px/45px PingFang TC;
+  padding-bottom: 15px;
+}
+
+.skill_block .skill_title > span {
+  font-size: 24px;
+  font: normal normal medium 24px/28px Roboto;
+  padding-left: 16px;
+}
+
+.skill_block .skill_group {
+  width: 220px;
+  margin: auto;
+  margin-top: 40px;
+  border-left: 1px solid #fff;
+  padding-left: 24px;
+  font-size: 24px;
+  font: normal normal 300 24px/36px Roboto;
+  text-align: left;
+}
+
+.skill_block .skill_group > p {
+  margin-bottom: 20px;
+}
+
+.skill_block .skill_group > p:last-child {
+  margin-bottom: 0;
+}
+
+.work {
+  padding: 72px 0;
+}
+
+.work .work_title {
+  font-size: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 8px;
+}
+
+.work .work_title > span {
+  font-size: 24px;
+  font: normal normal medium 24px/28px Roboto;
+  letter-spacing: 0px;
+  padding-left: 16px;
+}
+
+.work .work_des {
+  padding-top: 16px;
+  border-left: 1px solid #96a9c4;
+}
+
+.contact {
+  background-color: #415165;
+  padding: 34px 0 36px 0;
+  text-align: center;
+}
+
+.contact .border_1px {
+  border-color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.contact .container > p {
+  font-size: 24px;
+  font: normal normal 300 24px/36px Roboto;
+  margin-bottom: 16px;
+}
+
+.contact .contact_title {
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font: normal normal medium 32px/45px PingFang TC;
+  padding-bottom: 15px;
+}
+
+.contact .contact_title > span {
+  font-size: 24px;
+  font: normal normal medium 24px/28px Roboto;
+  padding-left: 16px;
+}
+
+.contact .media_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact .media_group > img:nth-child(2) {
+  padding: 0 24px;
+}
+/*# sourceMappingURL=style.css.map */
