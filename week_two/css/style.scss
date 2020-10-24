@@ -1,14 +1,7 @@
 // For All
-*,
-html,
-body {
+* {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
-img {
-  display: block;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 // Colors
@@ -51,12 +44,9 @@ img {
   margin-top: 24px;
 }
 
-.mb_24 {
-  margin-bottom: 24px;
-}
-
 // Person Profile
 .person_profile {
+  text-align: left;
   padding-top: 47px;
   padding-bottom: 72px;
   .person_name {
@@ -152,11 +142,12 @@ img {
     padding-left: 24px;
     margin-left: 24px;
     border-left: 1px solid #96a9c4;
-    img {
+    > img {
       padding: 8px 0;
     }
     .text_24px {
       font: normal normal normal 24px/36px Noto Sans;
+      margin-bottom: 24px;
       &:first-child,
       &:nth-child(7) {
         margin-bottom: 0;
@@ -184,7 +175,7 @@ img {
     border-color: #ffffff;
     margin-bottom: 32px;
   }
-  .container > ul > li {
+  .container > p {
     font: normal normal 300 24px/36px Roboto;
     margin-bottom: 16px;
   }
@@ -202,18 +193,8 @@ img {
   .media_group {
     display: flex;
     justify-content: center;
-    a {
-      display: block;
-      cursor: pointer;
-      transform: translateY(0);
-      transition: all 0.3s;
-      &:nth-child(2) {
-        padding: 0 24px;
-      }
-      &:hover {
-        transform: translateY(-10px);
-        transition: all 0.3s;
-      }
+    > img:nth-child(2) {
+      padding: 0 24px;
     }
   }
 }

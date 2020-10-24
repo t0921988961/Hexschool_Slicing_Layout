@@ -1,15 +1,7 @@
-*,
-html,
-body {
+* {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  list-style: none;
-}
-
-img {
-  display: block;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .c_whtie {
@@ -57,11 +49,8 @@ img {
   margin-top: 24px;
 }
 
-.mb_24 {
-  margin-bottom: 24px;
-}
-
 .person_profile {
+  text-align: left;
   padding-top: 47px;
   padding-bottom: 72px;
 }
@@ -184,12 +173,13 @@ img {
   border-left: 1px solid #96a9c4;
 }
 
-.work .work_des img {
+.work .work_des > img {
   padding: 8px 0;
 }
 
 .work .work_des .text_24px {
   font: normal normal normal 24px/36px Noto Sans;
+  margin-bottom: 24px;
 }
 
 .work .work_des .text_24px:first-child, .work .work_des .text_24px:nth-child(7) {
@@ -220,7 +210,7 @@ img {
   margin-bottom: 32px;
 }
 
-.contact .container > ul > li {
+.contact .container > p {
   font: normal normal 300 24px/36px Roboto;
   margin-bottom: 16px;
 }
@@ -253,23 +243,7 @@ img {
           justify-content: center;
 }
 
-.contact .media_group a {
-  display: block;
-  cursor: pointer;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.contact .media_group a:nth-child(2) {
+.contact .media_group > img:nth-child(2) {
   padding: 0 24px;
-}
-
-.contact .media_group a:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 /*# sourceMappingURL=style.css.map */
