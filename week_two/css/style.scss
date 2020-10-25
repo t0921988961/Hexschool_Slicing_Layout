@@ -6,6 +6,9 @@ body {
   text-decoration: none;
   font-family: 'Roboto', 'serif';
 }
+img {
+  display: block;
+}
 
 // color
 .c_white {
@@ -24,6 +27,18 @@ body {
 // Utility classes
 .container {
   margin: 0 auto;
+  width: 1200px;
+}
+.w_588 {
+  width: 588px;
+}
+.w_384 {
+  width: 384px;
+}
+.img_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 // Joanne
@@ -32,7 +47,7 @@ body {
   padding: 356px 10px 286px 10px;
   background: #111 url('../img/sec01_bg.png') no-repeat center/cover;
   .container {
-    width: 283px;
+    width: 305px;
   }
   p {
     font: italic normal bold 24px/42px Roboto;
@@ -50,6 +65,10 @@ body {
   .social_group {
     display: flex;
     justify-content: space-between;
+    li:hover {
+      transform: translateY(-10px);
+      transition: all 0.3s;
+    }
   }
 }
 
@@ -57,9 +76,135 @@ body {
 .sec_about {
   background-color: #fff;
   .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0 52px 0;
+    > li {
+      font: italic normal bold 24px/42px Roboto;
+      letter-spacing: 0px;
+    }
+    img {
+      width: 384px;
+      margin: 40px 0 24px 0;
+    }
+    .line {
+      width: 384px;
+      height: 2px;
+      display: block;
+      margin: 24px 0 32px 0;
+      background-color: #000;
+    }
   }
   h2 {
-    font: italic normal medium 64px/75px Roboto;
+    font: normal 64px/75px Roboto;
     letter-spacing: 0px;
+    font-style: italic;
+  }
+  ul > li {
+    list-style: red;
+    text-align: center;
+    font: italic normal bold 24px/42px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #891818 0% 0% no-repeat padding-box;
+      transform: translateX(-16px);
+      vertical-align: middle;
+    }
+  }
+}
+
+// My Brand
+.sec_brand {
+  background-color: #111;
+  padding: 64px 0 160px 0;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    font: normal 64px/75px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+  }
+  h6 {
+    font: normal 20px/30px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+    margin-bottom: 32px;
+  }
+  p {
+    text-align: center;
+    font: normal 20px/30px Roboto;
+    letter-spacing: 0px;
+    margin-bottom: 68px;
+  }
+  .img_group {
+    li:nth-child(1) > img {
+      width: 792px;
+      margin-bottom: 40px;
+    }
+    li:nth-child(2) > img {
+      margin-right: 24px;
+    }
+  }
+}
+
+// Other Works
+.work {
+  padding: 64px 0 160px 0;
+  text-align: center;
+  h2 {
+    font: normal 64px/75px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+  }
+  h4 {
+    font: normal 20px/30px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+    margin-bottom: 56px;
+  }
+  .img_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      margin-bottom: 56px;
+    }
+    p {
+      margin-top: 16px;
+      font: normal 20px/42px Roboto;
+      font-style: italic;
+      letter-spacing: 0px;
+    }
+  }
+}
+
+// contact
+.contact {
+  padding: 64px 0 80px 0;
+  background-color: #111;
+  text-align: center;
+  h2 {
+    font: normal 64px/75px Roboto;
+    font-style: italic;
+    letter-spacing: 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+  li:nth-child(1) {
+    margin: 16px 0 16px 0;
   }
 }
