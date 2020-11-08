@@ -1,0 +1,16 @@
+// px => rem
+@function px2rem($size, $base: 16px) {
+  @return $size / $base * 1rem;
+}
+
+// px => %
+@function px2percent($size, $width) {
+  @return ($size / $width) * 100%;
+}
+
+//自動算 padding
+// $baseLineHeight: 12px;
+// @function line($count: 1) {
+//   @return $baseLineHeight * $count;
+// }
+//EX padding:line(2)
