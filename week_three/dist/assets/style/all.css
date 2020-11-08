@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul,
+li,
+a {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  -webkit-appearance: none;
+  /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+  -moz-appearance: none;
+  /* FireFox */
+  appearance: none; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* for Chrome Firefox Edge */ }
+
+select::-ms-expand {
+  display: none;
+  /* for IE11 */ }
+
+textarea {
+  -webkit-appearance: none; }
+
+input,
+button {
+  border-radius: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html {
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all; }
+
+html,
+body,
+ul,
+li,
+a {
+  font-family: "Microsoft JhengHei", Arial, Helvetica, sans-serif; }
+
+.header {
+  height: 200px;
+  background-color: #00cc99;
+  font-size: 25px; }
+  @media (max-width: 1279px) {
+    .header {
+      font-size: 100px; } }
+  @media (max-width: 767px) {
+    .header {
+      font-size: 200px; } }
+
+.footer {
+  height: 200px;
+  background-color: #00cc99; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .box:hover {
+    width: 200px;
+    background-color: #00cc99; }
+
+/*# sourceMappingURL=all.css.map */
