@@ -1,3 +1,4 @@
+// Default
 @import './reset';
 @import './reboot';
 @import './variables';
@@ -6,24 +7,13 @@
 @import './mixins';
 @import './breakpoint';
 
+// Utility
+
+// Pages
+@import './head';
+@import './foot';
+
 $color: #00cc99;
-
-.header {
-  height: 200px;
-  background-color: #00cc99;
-  font-size: 25px;
-  @include b1279 {
-    font-size: 100px;
-  }
-  @include b768 {
-    font-size: 200px;
-  }
-}
-
-.footer {
-  height: 200px;
-  background-color: #00cc99;
-}
 
 .box {
   width: 100px;

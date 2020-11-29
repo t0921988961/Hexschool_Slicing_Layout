@@ -1,0 +1,11 @@
+.header {
+  height: 200px;
+  background-color: #00cc99;
+  font-size: 25px;
+  @include b1279 {
+    font-size: 100px;
+  }
+  @include b768 {
+    font-size: 200px;
+  }
+}
