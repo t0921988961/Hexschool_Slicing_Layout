@@ -1,153 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>六角切版班__第一周作業</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>六角切版班__第一周作業</title>
 
-  <link rel="stylesheet" href="./css/css_reset.css">
-  <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css_reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- Google Roboto -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Google Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
-  <!-- Person Profile -->
-  <div class="person_profile container c_black">
-    <h1 class="person_name border_2px">
-      Joanne<br>Chen
-    </h1>
-    <img class="perser_img" src="./img/person.png" alt="Joanne Chen" >
-    <div class="profile_text_style">
-      <h2 class="profile_title border_1px">
-        個人資料 <span class="c_red">PROFILE</span>
-      </h2>
-      <ul class="mt_16">
-        <li>陳久安 Joanne Chen</li>
-        <li>1997-</li>
-        <li>應屆畢業生／接案設計師／UI 設計實習生</li>
-      </ul>
-      <ul class="mt_24">
-        <li>UI 設計修行中／立志當斜槓青年</li>
-        <li>獨立接案，內容涵蓋：</li>
-        <li>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</li>
-      </ul>
-    </div>
-
-    <div class="profile_text_style education">
-      <h2 class="profile_title border_1px">
-        學歷 <span class="c_red">EDUCATION</span>
-      </h2>
-      <ul>
-        <li class="mt_16">
-          國立六角師範大學 視覺設計學系 學士學位 | 2016－2020
-        </li>
-        <li class="mt_24">
-          國立六腳高級中學 美術班 | 2013－2016
-         </li>
-      </ul>
-    </div>
-  </div>
- 
-  <!-- Skills -->
-  <div class="skill_block c_whtie">
-    <div class="container">
-      <div class="skill_title border_1px">
-        技能
-        <span>SKILLS</span>
+    <!-- aos css -->
+    <link rel="stylesheet" href="./css/aos.css" />
+  </head>
+  <body>
+    <!-- Person Profile -->
+    <div class="person_profile container c_black">
+      <h1
+        class="person_name border_2px"
+        data-aos="fade-down"
+        data-aos-delay="450"
+        data-aos-duration="500"
+      >
+        Joanne<br />Chen
+      </h1>
+      <img
+        class="perser_img"
+        src="./img/person.png"
+        alt="Joanne Chen"
+        data-aos="zoom-in"
+        data-aos-delay="250"
+        data-aos-duration="500"
+      />
+      <div class="profile_text_style">
+        <h2
+          class="profile_title border_1px"
+          data-aos="fade-down"
+          data-aos-delay="450"
+          data-aos-duration="500"
+        >
+          個人資料 <span class="c_red">PROFILE</span>
+        </h2>
+        <ul
+          class="mt_16"
+          data-aos="fade-right"
+          data-aos-delay="650"
+          data-aos-duration="1000"
+        >
+          <li>陳久安 Joanne Chen</li>
+          <li>1997-</li>
+          <li>應屆畢業生／接案設計師／UI 設計實習生</li>
+        </ul>
+        <ul
+          class="mt_24"
+          data-aos="fade-right"
+          data-aos-delay="850"
+          data-aos-duration="500"
+        >
+          <li>UI 設計修行中／立志當斜槓青年</li>
+          <li>獨立接案，內容涵蓋：</li>
+          <li>品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。</li>
+        </ul>
       </div>
-      <ul class="skill_group">
-          <li>Adobe Photoshop</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe XD</li>
-          <li>Adobe Indesign</li>
-          <li>C4D</li>
-          <li>Adobe Premiere</li>
-          <li>語言：中文、英文</li>
-      </ul>
-    </div>
-  </div>
 
-  <!-- Work -->
-  <div class="work">
-    <div class="container">
-        <h2 class="work_title border_1px">
+      <div class="profile_text_style education">
+        <h2
+          class="profile_title border_1px"
+          data-aos="fade-down"
+          data-aos-delay="350"
+          data-aos-duration="500"
+        >
+          學歷 <span class="c_red">EDUCATION</span>
+        </h2>
+        <ul>
+          <li
+            class="mt_16"
+            data-aos="fade-right"
+            data-aos-delay="450"
+            data-aos-duration="1000"
+          >
+            國立六角師範大學 視覺設計學系 學士學位 | 2016－2020
+          </li>
+          <li
+            class="mt_24"
+            data-aos="fade-right"
+            data-aos-delay="550"
+            data-aos-duration="1000"
+          >
+            國立六腳高級中學 美術班 | 2013－2016
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skill_block c_whtie">
+      <div class="container">
+        <div class="skill_title border_1px" data-aos="fade-down">
+          技能
+          <span>SKILLS</span>
+        </div>
+        <ul class="skill_group">
+          <li data-aos="fade-left" data-aos-delay="400">Adobe Photoshop</li>
+          <li data-aos="fade-left" data-aos-delay="500">Adobe Illustrator</li>
+          <li data-aos="fade-left" data-aos-delay="600">Adobe XD</li>
+          <li data-aos="fade-left" data-aos-delay="700">Adobe Indesign</li>
+          <li data-aos="fade-left" data-aos-delay="800">C4D</li>
+          <li data-aos="fade-left" data-aos-delay="900">Adobe Premiere</li>
+          <li data-aos="fade-left" data-aos-delay="1000">語言：中文、英文</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Work -->
+    <div class="work">
+      <div class="container">
+        <h2 class="work_title border_1px" data-aos="fade-down">
           工作經驗 <span class="c_red">WORK EXPERIENCE</span>
         </h2>
         <div class="work_des">
-          <li class="mb_24">
-            <h3 class="text_24px mb_24">六角學院 視覺設計實習生 | 2019/07－2020/06</h3>
-            <img src="./img/hex_logo.png" alt="Hexschool Logo">
-            <p class="text_20px ">在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入 UI
-            設計範疇，設計六角共筆部落格 -W3HexSchool、六角發案服務網介面設計、供給學員的教<br>案- RWD官方網站設計，並設計各式網頁活動宣傳圖。</p>
+          <li class="mb_24" data-aos="fade-left" data-aos-delay="400">
+            <h3 class="text_24px mb_24">
+              六角學院 視覺設計實習生 | 2019/07－2020/06
+            </h3>
+            <img src="./img/hex_logo.png" alt="Hexschool Logo" />
+            <p class="text_20px">
+              在六角學院長達一年的實習中，前期藉由公司課程掌握 HTML, CSS, Adobe
+              XD，設計給學員使用的名片設計教材，並參與六角週年活動，設計各式周邊商品及活動網路宣傳圖。後期進入
+              UI 設計範疇，設計六角共筆部落格
+              -W3HexSchool、六角發案服務網介面設計、供給學員的教<br />案-
+              RWD官方網站設計，並設計各式網頁活動宣傳圖。
+            </p>
           </li>
-          
-          <li class="text_24px mb_24">獨立接案 Hao Jun 酒標設計 | 2019</li>
-          <li class="text_24px mb_24">獨立接案 Exulans 酒標設計 | 2019</li>
-          <li class="text_24px mb_24">獨立接案 桃園平鎮市民健走活動提案 | 2019</li>
-          <li class="text_24px">Simtree 興趣咖啡 工讀生 | 2018－2019</li>
+
+          <li class="text_24px mb_24" data-aos="fade-left" data-aos-delay="500">
+            獨立接案 Hao Jun 酒標設計 | 2019
+          </li>
+          <li class="text_24px mb_24" data-aos="fade-left" data-aos-delay="600">
+            獨立接案 Exulans 酒標設計 | 2019
+          </li>
+          <li class="text_24px mb_24" data-aos="fade-left" data-aos-delay="700">
+            獨立接案 桃園平鎮市民健走活動提案 | 2019
+          </li>
+          <li class="text_24px" data-aos="fade-left" data-aos-delay="800">
+            Simtree 興趣咖啡 工讀生 | 2018－2019
+          </li>
 
           <li>
-            <img src="./img/tree.png" alt="tree">
+            <img src="./img/tree.png" alt="tree" />
             <p class="text_20px">擔任外場及吧台服務生，學習咖啡相關知識。</p>
           </li>
         </div>
-    </div>
-  </div>
-  
-  <!-- Contact -->
-  <div class="contact c_whtie">
-    <div class="container">
-      <h2 class="contact_title border_1px">
-        聯絡方式
-        <span>CONTACT METHOD</span>
-      </h2>
-      <ul>
-        <li>
-          <a  class="c_whtie"href="mailto:xxxd@hexschool.com">
-            Mail：xxxd@hexschool.com
-          </a>
-        </li>
-        <li>
-          <a class="c_whtie" href="tel:+0910123456">Phone：0910123456</a>
-        </li>
-        <li>Kaohsiung, Taiwan</li>
-        <li>作品連結：https://www.behance.net/xxxdddddd</li>
-      </ul>
-
-      <div class="media_group">
-        <a href="#">
-          <img src="./img/media_facebook.png" alt="Facebook">
-        </a>
-        <a href="#">
-          <img src="./img/media_IG.png" alt="IG">
-        </a>
-        <a href="#">
-          <img src="./img/media_Line.png" alt="Line">
-        </a>
       </div>
     </div>
-  </div>
-  
-</body>
+
+    <!-- Contact -->
+    <div class="contact c_whtie">
+      <div class="container">
+        <h2 class="contact_title border_1px" data-aos="fade-down">
+          聯絡方式
+          <span>CONTACT METHOD</span>
+        </h2>
+        <ul data-aos="fade-up" data-aos-delay="400">
+          <li>
+            <a class="c_whtie" href="mailto:xxxd@hexschool.com">
+              Mail：xxxd@hexschool.com
+            </a>
+          </li>
+          <li>
+            <a class="c_whtie" href="tel:+0910123456">Phone：0910123456</a>
+          </li>
+          <li>Kaohsiung, Taiwan</li>
+          <li>作品連結：https://www.behance.net/xxxdddddd</li>
+        </ul>
+
+        <div class="media_group">
+          <a href="#" data-aos="fade-left" data-aos-delay="600">
+            <img src="./img/media_facebook.png" alt="Facebook" />
+          </a>
+          <a href="#" data-aos="fade-left" data-aos-delay="800">
+            <img src="./img/media_IG.png" alt="IG" />
+          </a>
+          <a href="#" data-aos="fade-left" data-aos-delay="1000">
+            <img src="./img/media_Line.png" alt="Line" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/aos.js"></script>
+
+    <script>
+      // 初始化
+      AOS.init();
+      // AOS.init({
+      //   // Global settings:
+      //   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      //   startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      //   initClassName: 'aos-init', // class applied after initialization
+      //   animatedClassName: 'aos-animate', // class applied on animation
+      //   useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      //   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      //   debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      //   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+      //   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      //   // offset: 120, // offset (in px) from the original trigger point
+      //   delay: 0, // values from 0 to 3000, with step 50ms
+      //   // duration: 400, // values from 0 to 3000, with step 50ms
+      //   easing: 'ease', // default easing for AOS animations
+      //   once: false, // whether animation should happen only once - while scrolling down
+      //   mirror: false, // whether elements should animate out while scrolling past them
+      //   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      // });
+    </script>
+  </body>
 </html>
 
-
-<!-- 
-哈囉， 鄭宏璋 ( Luke ) 你好，
-我是六角助教 Carrie
-作業中相同樣式使用了 class 做複用，很不錯喔 !
-
-下方提供一些小建議 :
-
-一個網頁內一定會有一個 h1 標籤，通常會用於網頁中最能代表此公司的重要資訊。此設計稿中可用於姓名處唷!提供相關文章給同學參考 : 【HTML系列#2】h1～h6介紹與教學，影響SEO的重要關鍵！
-.width_100persent 可刪除。
-.person_profile 文字本來就置左，text-align: left; 可刪除。
-.person_profile 可移至下方 .container 上，減少 div 使用。
-個人資料、學歷、工作經驗文字顏色預設為黑色 ，可不使用.c_black 。
-font 縮寫可簡化為 font-style、font-weight、font-size、line-height、font-family。可參考此篇文章 CSS教學－常用CSS簡寫大集合 。
-子層會繼承父層設定，font 設定可統一寫於 body ，如果獨立要設定的字型可再另外做設定。
-「 個人資料 PROFILE 」和下方其他標題與副標，建議使用 h2 > span 結構，正確使用標籤有助於搜尋引擎優化。
-「 個人資料、學歷、技能、工作經驗、聯絡方式 」裡面的內容為主題式項目，建議使用 ul > li 結構。附上洧杰老師提供的示意圖給您參考。 
--->
+<!-- // 哈囉， 鄭宏璋 ( Luke ) 你好， // 我是六角助教 Carrie // 作業中相同樣式使用了
+class 做複用，很不錯喔 ! // 下方提供一些小建議 : // 一個網頁內一定會有一個 h1
+標籤，通常會用於網頁中最能代表此公司的重要資訊。此設計稿中可用於姓名處唷!提供相關文章給同學參考
+: 【HTML系列#2】h1～h6介紹與教學，影響SEO的重要關鍵！ // .width_100persent
+可刪除。 // .person_profile 文字本來就置左，text-align: left; 可刪除。 //
+.person_profile 可移至下方 .container 上，減少 div 使用。 //
+個人資料、學歷、工作經驗文字顏色預設為黑色 ，可不使用.c_black 。 // font
+縮寫可簡化為
+font-style、font-weight、font-size、line-height、font-family。可參考此篇文章
+CSS教學－常用CSS簡寫大集合 。 // 子層會繼承父層設定，font 設定可統一寫於 body
+，如果獨立要設定的字型可再另外做設定。 // 「 個人資料 PROFILE
+」和下方其他標題與副標，建議使用 h2 > span
+結構，正確使用標籤有助於搜尋引擎優化。 // 「
+個人資料、學歷、技能、工作經驗、聯絡方式 」裡面的內容為主題式項目，建議使用 ul >
+li 結構。附上洧杰老師提供的示意圖給您參考。 -->
