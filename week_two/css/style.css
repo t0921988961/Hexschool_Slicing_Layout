@@ -53,7 +53,6 @@ img {
 }
 
 .sec_joanne {
-  width: 100%;
   padding: 356px 10px 286px 10px;
   background: #111 url("../img/sec01_bg.png") no-repeat center/cover;
 }
@@ -94,10 +93,6 @@ img {
   transition: all 0.3s;
 }
 
-.sec_about {
-  background-color: #fff;
-}
-
 .sec_about .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +110,11 @@ img {
   padding: 64px 0 52px 0;
 }
 
-.sec_about .container > li {
+.sec_about .container .name_list {
+  text-align: center;
+}
+
+.sec_about .container .name_list li {
   font: italic normal bold 24px/42px Roboto;
   letter-spacing: 0px;
 }
@@ -139,7 +138,7 @@ img {
   font-style: italic;
 }
 
-.sec_about ul > li {
+.sec_about .lists > li {
   list-style: red;
   text-align: center;
   font: italic normal bold 24px/42px Roboto;
@@ -147,7 +146,7 @@ img {
   letter-spacing: 0px;
 }
 
-.sec_about ul > li:before {
+.sec_about .lists > li:before {
   content: '';
   display: inline-block;
   width: 22px;
@@ -165,19 +164,8 @@ img {
 }
 
 .sec_brand .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .sec_brand h2 {
@@ -187,8 +175,8 @@ img {
   margin-bottom: 16px;
 }
 
-.sec_brand h6 {
-  font: normal 20px/30px Roboto;
+.sec_brand h3 {
+  font: normal 24px/42px Roboto;
   font-style: italic;
   letter-spacing: 0px;
   margin-bottom: 32px;

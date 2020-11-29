@@ -43,7 +43,6 @@ img {
 
 // Joanne
 .sec_joanne {
-  width: 100%;
   padding: 356px 10px 286px 10px;
   background: #111 url('../img/sec01_bg.png') no-repeat center/cover;
   .container {
@@ -74,16 +73,18 @@ img {
 
 // About
 .sec_about {
-  background-color: #fff;
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 64px 0 52px 0;
-    > li {
-      font: italic normal bold 24px/42px Roboto;
-      letter-spacing: 0px;
+    .name_list {
+      text-align: center;
+      li {
+        font: italic normal bold 24px/42px Roboto;
+        letter-spacing: 0px;
+      }
     }
     img {
       width: 384px;
@@ -102,7 +103,7 @@ img {
     letter-spacing: 0px;
     font-style: italic;
   }
-  ul > li {
+  .lists > li {
     list-style: red;
     text-align: center;
     font: italic normal bold 24px/42px Roboto;
@@ -126,10 +127,12 @@ img {
   background-color: #111;
   padding: 64px 0 160px 0;
   .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
   }
   h2 {
     font: normal 64px/75px Roboto;
@@ -137,8 +140,8 @@ img {
     letter-spacing: 0px;
     margin-bottom: 16px;
   }
-  h6 {
-    font: normal 20px/30px Roboto;
+  h3 {
+    font: normal 24px/42px Roboto;
     font-style: italic;
     letter-spacing: 0px;
     margin-bottom: 32px;
