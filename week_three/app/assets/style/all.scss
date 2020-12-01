@@ -1,17 +1,17 @@
-// Default
-@import './reset';
-@import './reboot';
-@import './variables';
-@import './typography';
-@import './function';
-@import './mixins';
-@import './breakpoint';
+// Util
+@import './util/reset';
+@import './util/reboot';
+@import './util/variables';
+@import './util/typography';
+@import './util/function';
+@import './util/mixins';
+@import './util/breakpoint';
 
-// Utility
+// layout
+@import './layout/foot';
+@import './layout/head';
 
 // Pages
-@import './head';
-@import './foot';
 
 $color: #00cc99;
 

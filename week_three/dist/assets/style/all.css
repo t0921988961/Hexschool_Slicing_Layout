@@ -157,6 +157,10 @@ li,
 a {
   font-family: "Microsoft JhengHei", Arial, Helvetica, sans-serif; }
 
+.footer {
+  height: 200px;
+  background-color: #00cc99; }
+
 .header {
   height: 200px;
   background-color: #00cc99;
@@ -167,10 +171,6 @@ a {
   @media (max-width: 767px) {
     .header {
       font-size: 200px; } }
-
-.footer {
-  height: 200px;
-  background-color: #00cc99; }
 
 .box {
   width: 100px;
